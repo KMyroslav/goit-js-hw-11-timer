@@ -5,32 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Timer</title>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <h1>To NYE left</h1>
-    <div class="timer" id="timer-1">
-      <div class="field">
-        <span class="value" data-value="days">11</span>
-        <span class="label">Days</span>
-      </div>
+    <div class="wrapper">
+      <h1 class="title">To NYE left:</h1>
+      <div class="timer" id="timer-1">
+        <div class="field">
+          <span class="value" data-value="days">00</span>
+          <span class="label">Days</span>
+        </div>
 
-      <div class="field">
-        <span class="value" data-value="hours">11</span>
-        <span class="label">Hours</span>
-      </div>
+        <div class="field">
+          <span class="value" data-value="hours">00</span>
+          <span class="label">Hours</span>
+        </div>
 
-      <div class="field">
-        <span class="value" data-value="mins">11</span>
-        <span class="label">Minutes</span>
-      </div>
+        <div class="field">
+          <span class="value" data-value="mins">00</span>
+          <span class="label">Minutes</span>
+        </div>
 
-      <div class="field">
-        <span class="value" data-value="secs">11</span>
-        <span class="label">Seconds</span>
+        <div class="field">
+          <span class="value" data-value="secs">00</span>
+          <span class="label">Seconds</span>
+        </div>
       </div>
     </div>
-    <button type="button" data-action="start">Start</button>
-    <button type="button" data-action="stop">Stop</button>
+
     <script src="./main.js" type="module"></script>
   </body>
 </html>
